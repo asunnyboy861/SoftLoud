@@ -37,7 +37,13 @@ struct SettingsView: View {
             }
 
             Link(
-                destination: URL(string: "https://zzoutuo.github.io/SoftLoud/privacy")!
+                destination: URL(string: "https://asunnyboy861.github.io/SoftLoud/support.html")!
+            ) {
+                Label("Support Page", systemImage: "questionmark.circle.fill")
+            }
+
+            Link(
+                destination: URL(string: "https://asunnyboy861.github.io/SoftLoud/privacy.html")!
             ) {
                 Label("Privacy Policy", systemImage: "hand.raised.fill")
             }
